@@ -1,0 +1,4 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0187.jpg,xe tải nhỏ màu trắng,added,Bổ sung khung bị thiếu do đậu sát lề
+1,frame_0312.jpg,bóng cây trên đường,deleted,Xóa khung rác do nhầm lẫn ánh sáng
+1,frame_0369.jpg,xe khách 45 chỗ,edited,Kéo dài khung bao trọn toàn bộ xe

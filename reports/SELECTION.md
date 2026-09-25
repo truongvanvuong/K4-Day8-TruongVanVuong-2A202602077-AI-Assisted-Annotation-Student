@@ -1,0 +1,7 @@
+Nếu chỉ được phép sửa 5 ảnh, tôi sẽ ưu tiên chọn frame_0312.jpg (hạng 7, điểm 0.910), frame_0099.jpg (hạng 8, điểm 0.906), frame_0187.jpg (hạng 10, điểm 0.899), frame_0227.jpg (hạng 11, điểm 0.891) và frame_0270.jpg (hạng 13, điểm 0.887). Năm ảnh này đều nằm trong nhóm có độ bất định cao nhất. Ngoài ra, frame_0099.jpg và frame_0107.jpg cách nhau khoảng 3 giây nên bối cảnh giao thông khá tương đồng; do đó, tôi quyết định không lấy cả hai để tăng tính đa dạng cho tập dữ liệu.
+
+Nhìn vào 12 ảnh thực tế mà AI đã chọn, tôi đặc biệt chú ý đến frame_0380.jpg, frame_0326.jpg và frame_0331.jpg. Cả ba bức ảnh đều có điểm trên 0.91; mặc dù AI đã khoanh tới khoảng 40 chiếc xe trong mỗi ảnh, nhưng vẫn còn tới 15-18 khung hình bị đánh giá là "chưa chắc chắn". Điều này cho thấy mật độ vật thể dày đặc đang khiến mô hình thực sự lúng túng.
+
+Về trường hợp điểm cao nhưng bị loại, frame_0368.jpg là một ví dụ tiêu biểu. Bức ảnh này đứng hạng 9 (điểm 0.900), cao hơn vài ảnh đã được chọn, nhưng AI vẫn bỏ qua vì thời điểm của nó quá sát với frame_0369.jpg. Hai ảnh gần như chung một góc máy và cảnh vật; gán nhãn cả hai sẽ rất tốn công mà mô hình lại học thêm được quá ít thông tin mới.
+
+Cuối cùng, điểm số cao thực chất chỉ phản ánh việc AI đang phân vân. Nó chưa hề chứng minh rằng sau khi chúng ta sửa ảnh đó xong thì AI sẽ nhận diện xe xuất sắc hơn, vì đôi khi sự phân vân lại bắt nguồn từ việc ảnh quá nhiễu hoặc vật thể bị che khuất hoàn toàn.
